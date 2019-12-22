@@ -1,0 +1,20 @@
+[package]
+name = "freedrive"
+version = "0.1.0"
+authors = ["JasonWang <1103870790@qq.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+default-run = "freedrive"
+
+[dependencies]
+
+
+[[bin]]
+name = "drivehub"
+path = "src/drivehub/main.rs"
+
+[[bin]]
+name = "freedrive"
+path = "src/freedrive/main.rs"
